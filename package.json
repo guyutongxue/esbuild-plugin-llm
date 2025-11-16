@@ -7,7 +7,8 @@
   "files": [
     "./plugin.js",
     "./plugin.d.ts",
-    "./README.md"
+    "./README.md",
+    "./LICENSE"
   ],
   "peerDependencies": {
     "esbuild": "^0.27.0"
