@@ -1,9 +1,14 @@
 {
   "name": "esbuild-llm-plugin",
-  "private": true,
+  "version": "0.1.0",
   "type": "module",
   "exports": "./plugin.js",
   "types": "./plugin.d.ts",
+  "files": [
+    "./plugin.js",
+    "./plugin.d.ts",
+    "./README.md"
+  ],
   "peerDependencies": {
     "esbuild": "^0.27.0"
   },
