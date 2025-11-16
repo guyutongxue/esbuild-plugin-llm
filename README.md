@@ -1,4 +1,4 @@
-# esbuild-llm-plugin
+# esbuild-plugin-llm
 
 What stops you coding like this? 💀
 
@@ -17,7 +17,7 @@ console.log(lyrics);
 
 ```js
 import esbuild from 'esbuild';
-import { llm } from 'esbuild-llm-plugin';
+import { llm } from 'esbuild-plugin-llm';
 
 await esbuild.build({
   // [...]

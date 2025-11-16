@@ -1,6 +1,6 @@
 // @ts-check
 import esbuild from 'esbuild';
-import { llm } from 'esbuild-llm-plugin';
+import { llm } from 'esbuild-plugin-llm';
 
 await esbuild.build({
   entryPoints: ['src/index.js'],
